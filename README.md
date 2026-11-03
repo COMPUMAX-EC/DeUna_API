@@ -39,7 +39,8 @@ python manage.py migrate
 python manage.py runserver     # http://127.0.0.1:8000
 ```
 
-> La configuración es de desarrollo (`DEBUG = True` y una `SECRET_KEY` de ejemplo). No la uses así en producción.
+> Por defecto corre en modo desarrollo. Fuera de tu computador define las variables de entorno
+> `DJANGO_SECRET_KEY` (una clave propia) y `DJANGO_DEBUG=False`.
 
 ## In English
 
