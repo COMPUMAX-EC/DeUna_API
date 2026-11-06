@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Sector objetivo** | Banca y cooperativas (sector financiero privado y popular y solidario), pagos móviles |
+| **Sector objetivo** | Banca y fintech (bancos, cooperativas, pagos digitales), pagos móviles |
 | **Segmento** | A |
 | **Esfuerzo asignado** | 3 % del tiempo de proyectos (dentro del 25 % de banca) |
 | **Horizonte** | 9-nov-2026 → 31-ene-2027 |
