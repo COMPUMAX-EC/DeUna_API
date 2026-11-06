@@ -3,8 +3,8 @@
 | | |
 |---|---|
 | **Sector objetivo** | Banca y fintech (bancos, cooperativas, pagos digitales), pagos móviles |
-| **Segmento** | A |
-| **Esfuerzo asignado** | 3 % del tiempo de proyectos (dentro del 25 % de banca) |
+| **Segmento** | A (único segmento del plan) |
+| **Esfuerzo asignado** | 7 % del tiempo de proyectos (dentro del 50 % de banca y fintech) |
 | **Horizonte** | 9-nov-2026 → 31-ene-2027 |
 
 ## Para quién se diseña
