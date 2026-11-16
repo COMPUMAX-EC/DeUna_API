@@ -1,35 +1,37 @@
-# Calcu de Finanzas · DeUna Hackathon
+# Finance Calculator · DeUna Hackathon
 
-Prototipo de hackatón que agrega una **calculadora de finanzas** a una billetera móvil estilo **Deuna**, para que
-pequeños negocios y usuarios aprendan conceptos financieros básicos mientras usan su app de pagos:
+🇬🇧 **English** · 🇪🇨 [Español](README.es.md)
 
-- **Pago mensual de un préstamo** a partir del monto, la tasa de interés y el plazo.
-- **Punto de equilibrio:** cuánto hay que vender para cubrir los costos.
-- **Fijación de precios:** cuánto cobrar por un producto para obtener ganancia.
+Hackathon prototype that adds a **finance calculator** to a **Deuna**-style mobile wallet, so small businesses and
+users learn basic finance concepts while using their payments app:
 
-Cada calculadora explica la diferencia entre los conceptos para que el usuario tome decisiones informadas.
+- **Monthly loan payment** from the amount, interest rate and term.
+- **Break-even point:** how much you need to sell to cover your costs.
+- **Pricing:** how much to charge for a product to make a profit.
 
-> Proyecto educativo hecho para una hackatón. No está afiliado a Deuna ni a Banco Pichincha; la interfaz solo
-> imita la billetera para mostrar cómo encajaría la función.
+Each calculator explains the difference between the concepts so the user can make informed decisions.
 
-## Detalles técnicos
+> Educational project built for a hackathon. It is not affiliated with Deuna or Banco Pichincha; the interface only
+> imitates the wallet to show how the feature would fit in. The interface is in Spanish.
 
-| Capa | Tecnología |
+## Technical details
+
+| Layer | Technology |
 |---|---|
 | Backend | Django 5.1 + Django REST Framework |
-| Base de datos | SQLite (modelo `Producto`: nombre, precio, cantidad) |
-| Frontend | Plantillas Django con HTML, CSS y JavaScript |
-| Referencias | [Deuna SDKs](https://docs.deuna.com/docs/deuna-sdks), sandbox `https://api.sandbox.deuna.io` |
+| Database | SQLite (`Producto` model: name, price, quantity) |
+| Frontend | Django templates with HTML, CSS and JavaScript |
+| References | [Deuna SDKs](https://docs.deuna.com/docs/deuna-sdks), sandbox `https://api.sandbox.deuna.io` |
 
 ```
-my_project/            configuración de Django (settings, urls)
-api/models.py          modelo Producto
-api/views.py           vistas de las páginas
-api/templates/         index (calculadora de préstamos), punto_equilibrio, precios, financial calculator
-api/static/            estilos
+my_project/            Django configuration (settings, urls)
+api/models.py          Producto model
+api/views.py           page views
+api/templates/         index (loan calculator), punto_equilibrio (break-even), precios (pricing), financial calculator
+api/static/            styles
 ```
 
-### Ejecutar localmente
+### Run locally
 
 ```bash
 python -m venv venv
@@ -39,14 +41,9 @@ python manage.py migrate
 python manage.py runserver     # http://127.0.0.1:8000
 ```
 
-> Por defecto corre en modo desarrollo. Fuera de tu computador define las variables de entorno
-> `DJANGO_SECRET_KEY` (una clave propia) y `DJANGO_DEBUG=False`.
+> By default it runs in development mode. Outside your own computer, set the environment variables
+> `DJANGO_SECRET_KEY` (your own key) and `DJANGO_DEBUG=False`.
 
-## In English
-
-Hackathon prototype that adds a finance calculator (loan payment, break-even point, pricing) to a Deuna-style mobile
-wallet so small businesses can learn basic finance concepts. Django 5.1 + DRF with SQLite. Not affiliated with Deuna.
-
-## Licencia
+## License
 
 [MIT](LICENSE).

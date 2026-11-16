@@ -1,32 +1,32 @@
-# Plan del proyecto
+# Project plan
 
 | | |
 |---|---|
-| **Sector objetivo** | Banca y fintech (bancos, cooperativas, pagos digitales), pagos móviles |
-| **Segmento** | A (único segmento del plan) |
-| **Esfuerzo asignado** | 7 % del tiempo de proyectos (dentro del 50 % de banca y fintech) |
-| **Horizonte** | 9-nov-2026 → 31-ene-2027 |
+| **Target sector** | Banking and fintech (banks, cooperatives, digital payments), mobile payments |
+| **Segment** | A (the plan's only segment) |
+| **Allocated effort** | 7% of project time (within the 50% for banking and fintech) |
+| **Horizon** | 9 Nov 2026 → 31 Jan 2027 |
 
-## Para quién se diseña
+## Who it is designed for
 
-Billeteras móviles y bancos con productos de pago para pequeños negocios.
+Mobile wallets and banks with payment products for small businesses.
 
-## Metas
+## Goals
 
-**Hasta 30-nov-2026**
-- [ ] Las tres calculadoras con pruebas unitarias y README con capturas
-- [ ] Demo desplegada con enlace en el README
+**By 30 Nov 2026**
+- [ ] The three calculators with unit tests and a README with screenshots
+- [ ] Deployed demo with a link in the README
 
-**Hasta 31-dic-2026**
-- [ ] API REST documentada (OpenAPI) para las calculadoras, lista para integrarse a una app
-- [ ] Reutilizar el cálculo de cuotas de caja-ahorro-api para que ambos den el mismo resultado
+**By 31 Dec 2026**
+- [ ] Documented REST API (OpenAPI) for the calculators, ready to integrate into an app
+- [ ] Reuse the installment calculation from caja-ahorro-api so both give the same result
 
-**Hasta 31-ene-2027**
-- [ ] Versión accesible (contraste, lector de pantalla) revisada con Lighthouse ≥ 90
+**By 31 Jan 2027**
+- [ ] Accessible version (contrast, screen reader) checked with Lighthouse ≥ 90
 
-## Fuera de alcance
+## Out of scope
 
-Conexión a cuentas o pagos reales. No está afiliado a Deuna ni a Banco Pichincha.
+Connecting to real accounts or payments. Not affiliated with Deuna or Banco Pichincha.
 
 ---
-Revisión cada domingo: avance de metas y horas dedicadas. Plan general de sectores en COMPUMAX-EC/red-contactos-ti (privado).
+Reviewed every Sunday: progress on goals and hours spent. Overall sector plan in COMPUMAX-EC/red-contactos-ti (private).
